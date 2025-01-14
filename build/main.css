@@ -1,0 +1,89 @@
+a #git {
+  border: inset;
+  border-radius: 50%;
+  min-width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.46);
+}
+
+a #linkedin {
+  background-color: rgba(115, 135, 248, 0.365);
+  border: inset;
+  border-radius: 50%;
+  min-width: 100px;
+  height: 100px;
+}
+
+h1 {
+  font-weight: bold;
+  color: rgb(215, 208, 159);
+}
+
+.h5 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: bold;
+  background-color: rgba(0, 28, 185, 0.271);
+  color: rgb(215, 208, 159);
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  background-color: rgba(0, 1, 8, 0.457);
+  border-radius: 1%;
+  font-size: px-medium md;
+}
+
+.modal p {
+  color: inherit;
+  font-size: inherit;
+  background-color: inherit;
+}
+
+body {
+  background-image: url("../Images/Background.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
+body #about {
+  width: 100%;
+}
+
+#skills {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+html {
+  height: 200%;
+}
+
+.profile {
+  border-radius: 10%;
+  background-color: rgba(223, 224, 230, 0.481);
+}
+
+@media (min-width: 366px) {
+  .font-sm {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .font-md {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .font-lg {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

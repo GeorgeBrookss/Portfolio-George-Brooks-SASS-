@@ -1,0 +1,43 @@
+@use 'colors';
+
+@mixin titles{
+    color: colors.$titleColor ;
+}
+
+
+h1{
+    font-weight: bold;
+    @include titles;
+    
+}
+
+.h5{
+    color: colors.$wColor;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+h2{
+    font-size: 3em;
+    font-weight: bold;
+    background-color: colors.$backtitle;
+    @include titles;
+
+
+}
+
+p{
+    color: colors.$wColor;
+    font-size: 2em;
+    background-color: colors.$pBackground;
+    border-radius: 1%;
+    font-size: px-medium md;
+}
+
+
+.modal p {
+    color: inherit; 
+    font-size: inherit; 
+    background-color: inherit;
+}

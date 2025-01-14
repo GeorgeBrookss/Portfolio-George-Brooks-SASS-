@@ -1,0 +1,17 @@
+@mixin redes{
+    border: inset;
+    border-radius: 50%;
+    min-width: 100px;
+    height: 100px;
+}
+
+a #git{
+    @include redes;
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+a #linkedin{
+    background-color: rgba(115, 135, 248, 0.365);
+    @include redes;
+    
+}
